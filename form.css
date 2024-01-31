@@ -1,0 +1,195 @@
+body{
+    padding: 0;
+    margin: 0;
+  }  
+.form{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(246, 242, 242);
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: white;
+    border-radius: 3px;
+    height: 45px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   margin-top: 3px;
+}
+.devlink{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin-left: 50px;
+}
+.links{
+    margin-left: 500px;
+    color: rgb(85, 0, 128);
+    background-color: rgb(215, 202, 226);
+    width: 80px;
+    height: 25px;
+    border-radius: 3px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.publicdetails{
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.preview{
+    margin-left: 400px;
+    border: 1.5px solid  rgb(85, 0, 128) ;
+    color:  rgb(85, 0, 128) ;
+    font-weight: 500;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.secondheader{
+    display: flex;
+    flex-direction: row;
+}
+.firstcol{
+    width: 25vw;
+    height: 92vh;
+    background-color: white;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondcol{
+    width: 72.5vw;
+    height: 92vh;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.phoneone{
+    height: 70vh;
+    width: 15vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phonetwo{
+    height: 68vh;
+    width: 14vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.divonephone{
+    height: 2.8vh;
+    width: 5vw;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom:1px solid black ;
+    border-left:1px solid black ;
+    border-right:1px solid black ;
+   
+}
+.coverdiv{
+    height: 2vh;
+    width: 5vw;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+ background-color: white; 
+}
+.firstnote{
+    color: black;
+    font-weight: 900;
+    font-size: 35px;
+    margin-left:50px;
+    margin-top: 50px;
+}
+.secondnote{
+    color: black;
+   font-size: 17px;
+   margin-left:50px;
+   margin-top: 10px;
+}
+.addnewlink{
+    border: 1px solid rgb(85, 0, 128);
+    border-radius: 7px;
+    color: rgb(85, 0, 128);
+    width: 58vw;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+.minisecondcol{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 251, 251);
+    margin-left: 50px;
+    margin-right: 170px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 60vh;
+}
+.linky{
+    display: flex;
+    flex-direction: row;
+}
+.link{
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+.remove{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 700px;
+    margin-top: 7px;
+}
+.platform{
+    font-size: 16px;
+    color: black;
+    margin-top:8px;
+}
+.github{
+    height: 35px;
+    width: 55vw;
+    background-color: white;
+    border: 0.1px solid rgb(216, 216, 216);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+   padding-left: 20px;
+    margin-top: 5px;
+
+}
